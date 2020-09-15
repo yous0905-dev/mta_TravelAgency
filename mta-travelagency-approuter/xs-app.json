@@ -1,0 +1,17 @@
+{
+	"authenticationMethod": "route",
+	"routes": [ {
+      "source": "^/HDI_OP/(.*)$",
+      "target": "$1",
+      "authenticationType": "none",
+      "destination": "HDI_OP",
+      "csrfProtection": false
+    },
+    {
+      "source": "^(.*)$",
+      "target": "$1",
+      "service": "html5-apps-repo-rt",
+      "authenticationType": "xsuaa"
+    }],
+	"welcomeFile": "/cp.portal"
+}
