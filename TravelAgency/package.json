@@ -1,19 +1,17 @@
 {
-  "name": "travelagency",
-  "version": "0.0.1",
-  "description": "",
-  "devDependencies": {
-    "@sapui5/ts-types": "1.71.x",
-    "@sap/ui5-builder-webide-extension": "1.0.x",
-    "@sap/approuter": "8.1.x"
-  },
-  "scripts": {
-    "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo",
-    "start-local": "node node_modules/@sap/html5-repo-mock/index.js"
-  },
-  "ui5": {
-    "dependencies": [
-      "@sap/ui5-builder-webide-extension"
-    ]
-  }
+    "name": "travelagency",
+    "version": "0.0.1",
+    "description": "",
+    "devDependencies": {
+        "@ui5/cli": "1.13.0",
+        "@sap/ui5-builder-webide-extension": "1.0.x"
+    },
+    "scripts": {
+        "build": "ui5 build --clean-dest --include-task=generateManifestBundle generateCachebusterInfo"
+    },
+    "ui5": {
+        "dependencies": [
+            "@sap/ui5-builder-webide-extension"
+        ]
+    }
 }
