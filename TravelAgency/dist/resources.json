@@ -1,18 +1,18 @@
 {
     "resources": [
         {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "localService/mockserver.js"
         },
         {
             "name": "i18n/ListReport/ZC_STRAVAG_OVP/i18n.properties",
             "raw": "i18n/i18n.properties"
         },
         {
-            "name": "localService/mockserver.js"
+            "name": "manifest.json"
         },
         {
-            "name": "manifest.json"
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "Component.js"
@@ -25,11 +25,11 @@
             "merged": true
         },
         {
-            "name": "localService/mockserver-dbg.js",
+            "name": "Component-dbg.js",
             "isDebug": true
         },
         {
-            "name": "Component-dbg.js",
+            "name": "localService/mockserver-dbg.js",
             "isDebug": true
         },
         {
